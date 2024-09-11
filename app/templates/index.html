@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CollegeAdmit Predictor</title>
+</head>
+<body>
+    <h1>CollegeAdmit Predictor</h1>
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        <div>
+            {{ form.tier.label }}
+            {{ form.tier() }}
+        </div>
+        <div>
+            {{ form.flagship.label }}
+            {{ form.flagship() }}
+        </div>
+        <div>
+            {{ form.public.label }}
+            {{ form.public() }}
+        </div>
+        <div>
+            {{ form.income_percentile.label }}
+            {{ form.income_percentile() }}
+        </div>
+        <div>
+            {{ form.rel_apply.label }}
+            {{ form.rel_apply() }}
+        </div>
+        {{ form.submit() }}
+    </form>
+</body>
+</html>

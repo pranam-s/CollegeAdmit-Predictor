@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CollegeAdmit Predictor - Visualizations</title>
+</head>
+<body>
+    <h1>CollegeAdmit Predictor Visualizations</h1>
+    <h2>Admission Rates by Income Bracket and College Tier</h2>
+    <img src="{{ url_for('static', filename='admission_rates.png') }}" alt="Admission Rates">
+    
+    <h2>Feature Importance</h2>
+    <img src="{{ url_for('static', filename='feature_importance.png') }}" alt="Feature Importance">
+    
+    <h2>ROC Curve</h2>
+    <img src="{{ url_for('static', filename='roc_curve.png') }}" alt="ROC Curve">
+    
+    <h2>Income Distribution</h2>
+    <img src="{{ url_for('static', filename='income_distribution.png') }}" alt="Income Distribution">
+    
+    <a href="/">Back to Prediction</a>
+</body>
+</html>
