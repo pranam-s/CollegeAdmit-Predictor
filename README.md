@@ -17,7 +17,7 @@ The project uses the [Elite College Admissions dataset](https://www.kaggle.com/d
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/CollegeAdmit_Predictor.git
+   git clone https://github.com/pranam-s/CollegeAdmit_Predictor.git
    cd CollegeAdmit_Predictor
    ```
 
